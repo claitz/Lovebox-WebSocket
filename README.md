@@ -11,7 +11,8 @@ I wanted to experiment with the Wemos platform and was constantly target by Love
 Inspired by their work I have then designed this clone of the clone, using the same wiring but with a new Sketch that uses Websockets for an instantaneus message delivery.
 Once the message is delivered to the node websocket server, the message gets propagated to all the clients pooling it such as the Wemos. The Wemos activates the servo and displays the message on the screen until the cover is removed and the light hits the photoresistor. When the analog input reads the light, stops the servo and clears the screen after some time. The time and the light reading can be configured in the Sketch to match your preferences.
 
-![Overview](https://media3.giphy.com/media/QyOTqdEvq3LLxTvGCz/giphy.gif)
+![](https://github.com/claitz/Lovebox-WebSocket/blob/main/images/overview.gif)
+![](https://github.com/claitz/Lovebox-WebSocket/blob/main/images/front.jpg)![](https://github.com/claitz/Lovebox-WebSocket/blob/main/images/back.jpg)![](https://github.com/claitz/Lovebox-WebSocket/blob/main/top.jpg)
 ## Materials
 
 (all Amazon links have my referral, please search manually for the product if you wish not to use my link.)
@@ -45,4 +46,7 @@ Copy credentials_example.h in credentials.h and input your SSID, wifi password a
 
 Use a WebSocket client to send messages to ```serverIP:8080```, the server will aknowledge the message and forward to all clients connected to it. This means you can run multiple Lovebox on the same server and they'll all get the message.
 
+# Donations ⭐
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C43KO15)
 ###### tags: `Lovebox` `Instruction`
