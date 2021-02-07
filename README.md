@@ -6,10 +6,10 @@ This project is powered by a Wemos D1 Mini that runs a WebSocket client and cont
 ## Materials
 (all Amazon links have my referral, please search manually for the product if you wish not to use my link.)
 1. [WeMos D1 Mini](https://amzn.to/3tylYwV)
-2. [Servo motor](https://amzn.to/39VxURJ)
-3. [Light sensor](https://amzn.to/3oRTOJL)
+2. [SG90 9g micro servo motor](https://amzn.to/39VxURJ)
+3. [GL5516 photoresistor](https://amzn.to/3oRTOJL)
 4. [10kΩ resistor](https://amzn.to/3q9mT4M)
-5. [OLED display](https://amzn.to/3rsBWXJ)
+5. [SSD1306 I2C OLED display](https://amzn.to/3rsBWXJ)
 
 ## Build 
 Follow the diagram and solder all the components together. I'd suggest to use at least 5cm of wire for the connections between the OLED and the Wemos. Use some solid core wire to extend the photoresistor pins to allow it to be raised to the top in its slot next to the display.
