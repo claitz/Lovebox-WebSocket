@@ -11,8 +11,10 @@ I wanted to experiment with the Wemos platform and was constantly target by Love
 Inspired by their work I have then designed this clone of the clone, using the same wiring but with a new Sketch that uses Websockets for an instantaneus message delivery.
 Once the message is delivered to the node websocket server, the message gets propagated to all the clients pooling it such as the Wemos. The Wemos activates the servo and displays the message on the screen until the cover is removed and the light hits the photoresistor. When the analog input reads the light, stops the servo and clears the screen after some time. The time and the light reading can be configured in the Sketch to match your preferences.
 
-![](https://github.com/claitz/Lovebox-WebSocket/blob/main/images/overview.gif)
-![](https://github.com/claitz/Lovebox-WebSocket/blob/main/images/front.jpg)![](https://github.com/claitz/Lovebox-WebSocket/blob/main/images/back.jpg)![](https://github.com/claitz/Lovebox-WebSocket/blob/main/top.jpg)
+![](https://raw.githubusercontent.com/claitz/Lovebox-WebSocket/main/images/overview.gif)
+
+<img src="https://raw.githubusercontent.com/claitz/Lovebox-WebSocket/main/images/front.jpg" width="250" height="250"> <img src="https://raw.githubusercontent.com/claitz/Lovebox-WebSocket/main/images/back.jpg" width="250" height="250"> <img src="https://raw.githubusercontent.com/claitz/Lovebox-WebSocket/main/images/top.jpg" width="250" height="250">
+
 ## Materials
 
 (all Amazon links have my referral, please search manually for the product if you wish not to use my link.)
