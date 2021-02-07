@@ -1,0 +1,28 @@
+{
+  "name": "lovebox-websocket-server",
+  "version": "1.0.0",
+  "description": "A websocket server for a Lovebox clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claitz/Lovebox-WebSocket.git"
+  },
+  "keywords": [
+    "lovebox",
+    "websocket",
+    "wemos"
+  ],
+  "author": "clait + efesen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claitz/Lovebox-WebSocket/issues"
+  },
+  "homepage": "https://github.com/claitz/Lovebox-WebSocket#readme",
+  "dependencies": {
+    "ws": "latest",
+    "express": "latest"
+  }
+}
